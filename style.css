@@ -1,13 +1,76 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Roboto', sans-serif;
 }
 /* header */
 header{
     min-height: 600px;
     background-color: #FFFBF0;
+    
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
 }
 header img{
     width: 300px;
+}
+/* feature */
+.button-icon{
+    width: 20px;
+    margin-right: 10px;
+}
+.feature-image{
+    float: right;
+    width: 80%;
+}
+.feature h1{
+    font-size: 60px;
+}
+.feature span{
+    color: tomato;
+
+}
+/* women jacket */
+.women-jacket-box{
+    margin: 10px;
+    width: 31.33%;
+}
+.card-img-top {
+    height: 300px;
+    width: 300px;
+    background-color: #f9f2f9;
+    padding: 6px 10px;
+    border-radius: 20px;
+    margin: 18px 12px;
+}
+.card {
+    border: 0px;
+}
+
+.card-footer {
+    padding: .5rem 1rem;
+    background-color: white;
+    border-top: 0;
+    margin-bottom: 10px;
+}
+.card-footer button{
+    float: right;
+}
+.card-footer h4{
+    color: tomato;
+}
+.promotional-box{
+    /* border: 1px solid gray; */
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+/* promotional */
+.promotional img{
+    width: 100%;
+}
+.promotional-box img{
+    width: 60px;
 }
