@@ -77,3 +77,75 @@ header img{
 .promotional-box img{
     width: 60px;
 }
+
+@media only screen and (max-width: 600px) {
+    header img{
+        width: 200px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .feature-image{
+        float: left;
+        width: 80%;
+    }
+    .main-content h1{
+        text-align: center;
+    }
+    .card-img-top {
+        height: 260px;
+        width: 260px;
+        background-color: #f9f2f9;
+        padding: 6px 10px;
+        border-radius: 20px;
+        margin: 15px 5px;
+    }
+    /* women jacket */
+    .women-jacket-box{
+        margin: 10px;
+        width: 92%;
+    }
+    .promotional-box {
+        height: 230px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .promotional-box img {
+        width: 60px;
+    }
+    .ms-3 {
+        margin-left: 7rem!important;
+    }
+    h4,p{
+        text-align: center;
+    }
+}
+.subscribe {
+    min-height: 300px;
+    background-color: rgb(243, 235, 235);
+    text-align: center;
+}
+.subscribe h5{
+    font-size: 25px;
+}
+.subscribe input[type=text]{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    header img{
+        width: 200px;
+    }
+    .card-img-top {
+        height: 300px;
+        width: 300px;
+        background-color: #f9f2f9;
+        padding: 6px 10px;
+        border-radius: 20px;
+        margin: 18px 12px;
+    }
+}
+
+
